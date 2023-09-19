@@ -8,18 +8,11 @@ const Contact = () => {
   return (
 
 
-        <div className="flex flex-col items-center justify-center min-h-screen bg-gray-200">
-          <div className="absolute inset-0">
-          <Image
-              src={bbg}
-              alt='Логотип'
-              className='sm:blur-none'
-              h-full
-              fill/>
-          </div>
-          <div  className="relative z-10 ">
+        <div className="flex flex-col items-center  min-h-screen bg-gray-200 ">
+          
 
-          <div className="max-w-md w-full p-4 bg-white rounded-lg shadow-md">
+
+          <div className="max-w-md w-max py-5 p-2 bg-white rounded-lg shadow-md mt-5">
             <h2 className="text-2xl font-bold mb-4">Контакты</h2>
             <div className="mb-4 flex items-center">
               <FiMapPin className="mr-2" size={20} />
@@ -28,7 +21,7 @@ const Contact = () => {
                 <p>Адрес: Удмуртская республика, г. Ижевск, ул. Ломоносова 9а</p>
               </div>
             </div>
-            <div className="mb-4 flex items-center">
+            <div className="mb-1 flex items-center">
               <FiPhone className="mr-2" size={20} />
               <div>
                 <h3 className="text-lg font-semibold mb-2">Телефон:</h3>
@@ -52,7 +45,7 @@ const Contact = () => {
             </div>
           </div>
         </div>
-        </div>
+ 
 
   );
 };

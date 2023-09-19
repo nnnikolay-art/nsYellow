@@ -62,21 +62,21 @@ const HomePage = () => {
         </p>
         
         <div className='text-center columns-2 justify-center items-center flex gap-8 text-2xl'>
-          <div className=''>
+          <div className='text-lg'>
             
             <b>Весы</b>
             <p>Для новорожденных</p>
             <Link href="/Items">
-              <Image src={vesi} alt="Весы" className=' bg-cyan-200  rounded-full hover:border-pink-400 hover:border  hover:border-4  transition ease-linear delay-100  duration-300' width="500" height="500"></Image>
+              <Image src={vesi} alt="Весы" className=' bg-cyan-200  rounded-full hover:border-pink-400 hover:border  hover:border-4  transition ease-linear delay-100  duration-300' width="300" height="300"></Image>
 
             </Link>
           </div>
-          <div  className=''>
+          <div  className='text-lg'>
           
             <b>УФ-Лампа</b>
             <p>Для лечения желтухи у новорожденных</p>
             <Link href="/ItemsLamp">
-               <Image src={lamp} alt="Лампа" className=' bg-cyan-200  rounded-full hover:border-pink-400 hover:border  hover:border-4  transition ease-linear delay-100  duration-300' width="500" height="500" ></Image>
+               <Image src={lamp} alt="Лампа" className=' bg-cyan-200  rounded-full hover:border-pink-400 hover:border  hover:border-4  transition ease-linear delay-100  duration-300' width="300" height="300" ></Image>
 
             </Link>
           </div>

@@ -107,7 +107,7 @@ const ProductCard = () => {
             Регистрационное удостоверение на медицинское изделие 2022 г
           </Link>
         </div>
-        <span className="text-xl inline-block bg-gray-300 rounded-full px-1 py-1  font-bold text-gray-700 mr-2 text-center ml-14 flex justify-center columns-3">
+        <span className="inline-block bg-gray-300 rounded-full px-1 py-1 text-lg  font-bold text-gray-700  text-center  flex justify-center columns-3">
           <Image src={tIcon} height="50" width="50" className='float-left flex-' alt='WatsuppIcon'  />
           <Image src={wIcon} height="50" width="50" className='float-left flex-' alt='TelegramIcon' />
           Позвонить <br></br>
