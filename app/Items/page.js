@@ -8,7 +8,7 @@ import Link from 'next/link';
 import tIcon from '../../public/telegram.png'
 import wIcon from '../../public/whatsapp.png'
 
-const ProductCard = ({ product }) => {
+const ProductCard = () => {
   
   const data = {
     char:[
