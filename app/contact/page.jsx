@@ -12,7 +12,7 @@ const Contact = () => {
           
 
 
-          <div className="max-w-md w-max py-5 p-2 bg-white rounded-lg shadow-md mt-5">
+          <div className="max-w-md py-5 p-2 bg-white rounded-lg shadow-md mt-5">
             <h2 className="text-2xl font-bold mb-4">Контакты</h2>
             <div className="mb-4 flex items-center">
               <FiMapPin className="mr-2" size={20} />
