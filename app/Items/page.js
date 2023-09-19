@@ -37,7 +37,7 @@ const ProductCard = ({ product }) => {
   return (
     <div className="container max-w-fit  rounded overflow-hidden shadow-lg mb-6 py-6 px-10">
       <div className='flex justify-center'>
-        <Image className="" src={vesi} alt='n'  />
+        <Image className="" src={vesi} alt='Весы'  />
 
       </div>
       <div className="px-6 py-4 ">
@@ -75,19 +75,19 @@ const ProductCard = ({ product }) => {
         <div className=''>
         
         <Link href="https://massa.ru/upload/iblock/a83/20zx9eqlca4fbljt68asm92ctcidq2v0/V1_15K_Sasha_21_3_2021.pdf">
-           <Image src={pdf} height="20" width="20" className='float-left flex-' />
+           <Image src={pdf} height="20" width="20" className='float-left flex-' alt='pdfIcon'  />
             Руководство по эксплуатации
         </Link>
         </div>
         <div className=''>
           <Link href="files/sr-vem.pdf">
-          <Image src={pdf} height="20" width="20" className='float-left flex-' />
+          <Image src={pdf} height="20" width="20" className='float-left flex-' alt='pdfIcon' />
             Регистрационное удостоверение на медицинское изделие 2022 г
           </Link>
         </div>
         <span className="text-xl inline-block bg-gray-300 rounded-full px-1 py-1  font-bold text-gray-700 mr-2 text-center ml-14 flex justify-center columns-3">
-          <Image src={tIcon} height="50" width="50" className='float-left flex-' />
-          <Image src={wIcon} height="50" width="50" className='float-left flex-' />
+          <Image src={tIcon} height="50" width="50" className='float-left flex-' alt='telegramIcon' />
+          <Image src={wIcon} height="50" width="50" className='float-left flex-' alt='watsuppIcon'  />
           Позвонить <br></br>
           +7 951 191-11-11
         </span>
