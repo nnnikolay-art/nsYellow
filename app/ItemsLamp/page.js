@@ -57,7 +57,7 @@ const ProductCard = () => {
 
       </div>
       <div className="px-6 py-4 ">
-      <span className="text-xl inline-block bg-gray-300 rounded-full px-5 py-4 text-sm font-bold text-gray-700 mr-2 text-center ml-14 flex justify-center">
+      <span className="text-xl inline-block bg-gray-300 rounded-full py-4 font-bold text-gray-700 mr-2 text-center flex justify-center">
           Цена аренды:<br></br>
           1 100 рублей за месяц
         </span>
