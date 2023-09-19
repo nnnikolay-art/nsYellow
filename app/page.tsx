@@ -1,6 +1,5 @@
 import React from 'react';
 import Image from 'next/image'
-import Navbar from "@/app/Navbar";
 import Logo from '../public/Logo.jpg'
 import bbg from '../public/bg.jpg'
 import t1 from '../public/t1.png'
