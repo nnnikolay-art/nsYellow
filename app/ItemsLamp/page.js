@@ -96,17 +96,12 @@ const ProductCard = () => {
       <b className=''>Документация и сертификаты:</b>
         <div className=''>
         
-        <Link href="https://massa.ru/upload/iblock/a83/20zx9eqlca4fbljt68asm92ctcidq2v0/V1_15K_Sasha_21_3_2021.pdf">
+        <Link href="files/OFTN_Manual.pdf">
            <Image src={pdf} height="20" width="20" className='float-left flex-' alt='pdf'   />
-            Руководство по эксплуатации
+            Руководство по эксплуатации лампы Аксион ОФТН-3
         </Link>
         </div>
-        <div className=''>
-          <Link href="files/sr-vem.pdf">
-          <Image src={pdf} height="20" width="20" className='float-left flex-' alt='pdf'  />
-            Регистрационное удостоверение на медицинское изделие 2022 г
-          </Link>
-        </div>
+       
         <span className="inline-block bg-gray-300 rounded-full px-1 py-1 text-lg  font-bold text-gray-700  text-center  flex justify-center columns-3">
           <Image src={tIcon} height="50" width="50" className='float-left flex-' alt='WatsuppIcon'  />
           <Image src={wIcon} height="50" width="50" className='float-left flex-' alt='TelegramIcon' />
