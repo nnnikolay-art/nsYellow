@@ -1,7 +1,10 @@
+"use client"
+
 import React from 'react';
 import Image from 'next/image'
 import Logo from '../public/Logo.jpg'
 import bbg from '../public/bg.jpg'
+import aist from '../public/aist.png'
 import t1 from '../public/t1.png'
 import t2 from '../public/t2.png'
 
@@ -14,22 +17,27 @@ import lamp from '../public/lamp.jpg'
 import devidor from '../public/Divider.png'
 import devidor2 from '../public/Divider2.png'
 import Link from 'next/link';
-import {Button} from "@nextui-org/button";
+
+
+import { Component } from 'react';
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { Carousel } from 'react-responsive-carousel';
+
+
 
 const HomePage = () => {
   return (
-      <div className='container mx-auto px-4 '>
+      <div className='container mx-auto max-w-screen-lg '>
 
 
 
-      <div className=" flex flex-col bg-white   items-center justify-center">
-        <Image src={Logo} alt="logo" className='w-fit object-cover  '></Image>
-      </div>
-      <div className=" flex flex-col  bg-white items-center justify-center">
-        <Image src={devidor2} alt="div" className='w-fit object-cover  '></Image>
-      </div>
-      <div className='bg-white'>
+
+      <div className='bg-white px-2'>
+        <div className=" flex flex-col  bg-white items-center justify-center">
+          <Image src={devidor2} alt="div" className='w-fit object-cover  '></Image>
+        </div>
         <h1 className="text-4xl font-bold mb-4 text-center items-center justify-center mx-1">Добро пожаловать!</h1>
+  
 
         <p className="text-lg text-gray-700 mb-6">
           Рады видеть Вас на нашем сайте.
