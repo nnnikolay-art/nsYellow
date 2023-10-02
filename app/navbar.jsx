@@ -3,7 +3,7 @@
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import logo from '@/public/Logo.jpg'
+import logo from '@/public/Logo_w_trans.png'
 import { useSpring, animated, useTrail } from '@react-spring/web';
 
 
@@ -24,7 +24,7 @@ const Navbar = () => {
 
     const links = [
     {caption:'Главная', link:"/"}, 
-    {caption:'Прокат', link:"/contact"}, 
+    {caption:'Прокат', link:"/ItemsSelect"}, 
     {caption:'Контакты', link:"/contact"},
     {caption:'Статьи', link:"/contact"}];
 
@@ -41,21 +41,24 @@ const Navbar = () => {
       }, []);
 
     return (
-        <div className="bg-white container  relative z-10 items-center justify-center flex">
+        <div className="container relative items-center justify-center flex mx-auto">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="">
                     <animated.div style={props} className="logo-animation">
                     <Image src={logo} className='left-0'></Image>
-                    </animated.div>
+                    </animated.div >
 
+                    <div className='mx-auto justify-center items-center flex'>
                     {trail.map((props, index) => (
-                    <animated.button key={index} style={props} className="">
+                    <animated.button key={index} style={props} className="inline-flex ml-1">
                          <Link href={links[index].link} className="text-black text-sm hover:text-blue-800 hover:scale-105 transition  border border-spacing-2 border-separate border-gray-700 border-gray-7 ease-in-out duration-75 px-3 py-2 rounded-md  font-medium">
                                 {links[index].caption}
                             </Link>
                         
                     </animated.button>
+                    
       ))}
+      </div>
 
 
                 </div>

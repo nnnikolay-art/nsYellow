@@ -53,13 +53,13 @@ const ProductCard = () => {
   return (
     <div className="container max-w-fit  rounded overflow-hidden shadow-lg mb-6 py-6 px-10">
       <div className='flex justify-center'>
-        <Image className="" src={lamp} alt='Лампа'  />
+        <Image className="rounded-lg" src={lamp} alt='Лампа'  />
 
       </div>
       <div className="px-6 py-4 ">
       <span className="text-xl inline-block bg-gray-300 rounded-full py-4 font-bold text-gray-700 mr-2 text-center flex justify-center">
           Цена аренды:<br></br>
-          1 100 рублей за месяц
+          590 рублей в сутки
         </span>
       </div>
       
