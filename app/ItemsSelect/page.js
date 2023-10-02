@@ -4,18 +4,21 @@ import { useSpring, animated } from '@react-spring/web';
 
 import vesi from '../../public/vesi.jpg'
 import lamp from '../../public/lamp.jpg'
-import Image from 'next/image';
+import Image from 'next/image'
+import Link from 'next/link'
 
 const products = [
   {
     id: 1,
     name: 'Весы',
-    image: '../../public/vesi.jpg',
+    image: '/vesi.jpg',
+    link: '/Items'
   },
   {
     id: 2,
     name: 'Лампа',
-    image: '../../public/lamp.jpg',
+    image: '/lamp.jpg',
+    link: '/ItemsLamp'
   },
 ];
 
@@ -44,14 +47,16 @@ export default function Home() {
             style={fadeIn}
             onClick={() => handleProductSelect(product.id)}
           >
-            <Image
-              src={product.image.vesi}
+            <Link href={product.link}>
+            <Image 
+              src= {product.image}
               alt={product.name}
-              width="100"
-              height="100"
-              className="w-full object-cover"
+              width="250"
+              height="250"
+              className="border-0 hover:border-gray-500  hover:border-2 rounded-lg"
             />
             <h2 className="mt-4 text-lg font-bold">{product.name}</h2>
+            </Link>
           </animated.div>
         ))}
       </div>
