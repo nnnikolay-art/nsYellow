@@ -90,7 +90,7 @@ const ProductCard = () => {
       </div>
 
       
-      <div className='px-12 py-4' >
+      <div className='px-6 py-4' >
       <b className=''>Документация и сертификаты:</b>
         <div className=''>
         
