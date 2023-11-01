@@ -26,7 +26,7 @@ const Navbar = () => {
     {caption:'Главная', link:"/"}, 
     {caption:'Прокат', link:"/ItemsSelect"}, 
     {caption:'Контакты', link:"/contact"},
-    {caption:'Статьи', link:"/contact"}];
+    {caption:'Статьи', link:"/Notes"}];
 
     const trail = useTrail(links.length, {
             from: { opacity: 0, transform: 'translateY(20px)' },
