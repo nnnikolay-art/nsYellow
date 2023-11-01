@@ -62,7 +62,7 @@ const HomePage = () => {
           У нас вы можете преобрести товары для детского здоровья: УФ-Лампы, весы и другие важные товары.
         </p>
 
-        <div className='list-disc pl-4'>  
+        <div className='list-disc'>  
           <div className='flex'>
           <Image src={health} alt="health" width="100" height="50" className='w-32 h-32'/>
           <span className="text-lg text-gray-700 mb-6 text-lg text-gray-700 mb-6  bg-gradient-to-r from-blue-200 from-1%  to-white via-100%  ">
@@ -71,7 +71,7 @@ const HomePage = () => {
           </div>
         </div>
 
-        <div className='list-disc pl-4'>  
+        <div className='list-disc'>  
           <div className='flex'>
           <Image src={standard} alt="health" width="100" height="50" className='w-32 h-32'/>
           <span className="text-lg text-gray-700 mb-6  bg-gradient-to-r from-blue-200 from-1%  to-white via-100% ">
