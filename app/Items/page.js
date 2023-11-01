@@ -41,7 +41,7 @@ const ProductCard = () => {
 
       </div>
       <div className="px-6 py-4 ">
-      <span className="text-xl inline-block bg-gray-300 rounded-full px-5 py-4 font-bold text-gray-700 mr-2 text-center flex justify-center">
+      <span className="text-xl bg-gradient-to-r from-white from-10% via-blue-200 via-30% to-white to-90% ... rounded-full py-4 font-bold text-gray-700 text-center flex sm:w-1/2 mx-auto justify-center">
           Цена аренды:<br></br>
           1 090 рублей за месяц
         </span>
@@ -90,9 +90,9 @@ const ProductCard = () => {
             Регистрационное удостоверение на медицинское изделие 2022 г
           </Link>
         </div>
-        <span className=" inline-block bg-gray-300 rounded-full px-1 py-1 text-lg  font-bold text-gray-700  text-center  flex justify-center columns-3">
-          <Image src={tIcon} height="50" width="50" className='float-left flex-' alt='telegramIcon' />
-          <Image src={wIcon} height="50" width="50" className='float-left flex-' alt='watsuppIcon'  />
+        <span className=" inline-block bg-blue-200 rounded-full px-1 py-1 text-lg  font-bold text-gray-700  text-center  flex justify-center columns-3">
+          <Image src={tIcon} height="25" width="50" className='float-left flex-' alt='telegramIcon' />
+          <Image src={wIcon} height="25" width="50" className='float-left flex-' alt='watsuppIcon'  />
           Позвонить <br></br>
           +7 951 191-11-11
         </span>

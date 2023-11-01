@@ -36,7 +36,10 @@ export default function Home() {
   };
 
   return (
+    <div>
+    <div className='text-center font-bold mt-5'>Выберете интересующую услугу:</div>
     <div className="flex justify-center items-center mt-4">
+      
       <div className="grid grid-cols-2 gap-8">
         {products.map((product) => (
           <animated.div
@@ -55,11 +58,12 @@ export default function Home() {
               height="250"
               className="border-0 hover:border-gray-500  hover:border-2 rounded-lg"
             />
-            <h2 className="mt-4 text-lg font-bold">{product.name}</h2>
+            <h2 className="mt-4 text-lg font-bold text-center">{product.name}</h2>
             </Link>
           </animated.div>
         ))}
       </div>
+    </div>
     </div>
   );
 }

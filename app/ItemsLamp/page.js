@@ -54,22 +54,20 @@ const ProductCard = () => {
     <div className="container max-w-fit  rounded overflow-hidden shadow-lg mb-6 py-6 px-10">
       <div className='flex justify-center'>
         <Image className="rounded-lg" src={lamp} alt='Лампа'  />
-
       </div>
-      <div className="px-6 py-4 ">
-      <span className="text-xl inline-block bg-gray-300 rounded-full py-4 font-bold text-gray-700 mr-2 text-center flex justify-center">
+    <div className="px-6 py-4 ">
+
+      <span className="text-xl bg-gradient-to-r from-white from-10% via-blue-200 via-30% to-white to-90% ... rounded-full py-4 font-bold text-gray-700 text-center flex sm:w-1/2 mx-auto justify-center">
           Цена аренды:<br></br>
           590 рублей в сутки
         </span>
-      </div>
+    </div>
       
 
-      <div className="px-1 py-1">
-
-      </div>
+      <div className="px-1 py-1"></div>
 
 
-      <div className="px-6 py-2">
+      <div className="px-12 py-2">
         <div className="font-bold text-xl mb-2">УФ лампа для лечения желтушки новорожденных ОФТН-03 “Аксион”</div>
         <p className="text-gray-700 text-base">УФ лампа Аксион для лечения желтушки новорожденных применяется в фототерапии с излучением синего цвета и длиной волны 460–490 нм. Она обеспечивает мощный терапевтический эффект при лечении желтухи у младепнцев. Неонатальная желтуха встречается в основном у недоношенных детей, и основными клиническими проявлениями являются желтые пятна на склере, коже и слизистых оболочках младенцев. Однако, симптомы безболезненны, поэтому бывают незаметны для родителей
 
@@ -92,7 +90,7 @@ const ProductCard = () => {
       </div>
 
       
-      <div className='px-6 py-4' >
+      <div className='px-12 py-4' >
       <b className=''>Документация и сертификаты:</b>
         <div className=''>
         
@@ -100,9 +98,14 @@ const ProductCard = () => {
            <Image src={pdf} height="20" width="20" className='float-left flex-' alt='pdf'   />
             Руководство по эксплуатации лампы Аксион ОФТН-3
         </Link>
+        <br></br>
+        <Link href="files/oftn-03-sert.jpg">
+           <Image src={pdf} height="20" width="20" className='float-left flex-' alt='pdf'   />
+            Сертификат УФ-Лампы Аксион ОФТН-03
+        </Link>
         </div>
        
-        <span className="inline-block bg-gray-300 rounded-full px-1 py-1 text-lg  font-bold text-gray-700  text-center  flex justify-center columns-3">
+        <span className="bg-blue-200 rounded-full px-1 py-1 text-lg  font-bold text-gray-700  text-center  flex sm:w-1/2 mx-auto justify-center columns-3">
           <Image src={tIcon} height="50" width="50" className='float-left flex-' alt='WatsuppIcon'  />
           <Image src={wIcon} height="50" width="50" className='float-left flex-' alt='TelegramIcon' />
           Позвонить <br></br>

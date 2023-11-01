@@ -5,7 +5,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import logo from '@/public/Logo_w_trans.png'
 import { useSpring, animated, useTrail } from '@react-spring/web';
-
+import Bg2 from "../public/Photokako-vignette-ff43XkKApuykhnHO.jpg"
 
 const Navbar = () => {
     const [isVisible, setIsVisible] = React.useState(false);
@@ -19,7 +19,7 @@ const Navbar = () => {
     
 
     
-    
+
 
 
     const links = [
@@ -42,6 +42,8 @@ const Navbar = () => {
 
     return (
         <div className="container relative items-center justify-center flex mx-auto">
+
+
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="">
                     <animated.div style={props} className="logo-animation">
@@ -51,7 +53,7 @@ const Navbar = () => {
                     <div className='mx-auto justify-center items-center flex'>
                     {trail.map((props, index) => (
                     <animated.button key={index} style={props} className="inline-flex ml-1">
-                         <Link href={links[index].link} className="text-black text-sm hover:text-blue-800 hover:scale-105 transition  border border-spacing-2 border-separate border-gray-700 border-gray-7 ease-in-out duration-75 px-3 py-2 rounded-md  font-medium">
+                         <Link href={links[index].link} className={"bg-gradient-to-r from-white from-5% via-blue-200 via-30% to-white to-95% text-black text-sm hover:text-blue-800 hover:scale-105 transition  border border-spacing-2 border-separate border-blue-900 border-gray-7 ease-in-out duration-75 px-3 py-2 rounded-md  font-medium"}>
                                 {links[index].caption}
                             </Link>
                         
