@@ -106,7 +106,7 @@ const ProductCard = () => {
         </div>
        
         <span className="bg-blue-200 rounded-full px-1 py-1 text-lg  font-bold text-gray-700  text-center  flex sm:w-1/2 mx-auto justify-center columns-3">
-          <Image src={tIcon} height="50" width="50" className='float-left flex-' alt='WatsuppIcon'  />
+          <Image src={tIcon} height="25" width="50" className='float-left flex-' alt='WatsuppIcon'  />
           <Image src={wIcon} height="50" width="50" className='float-left flex-' alt='TelegramIcon' />
           Позвонить <br></br>
           +7 951 191-11-11
